@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		E2DF163F253698F600B035B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF163E253698F600B035B1 /* AppDelegate.swift */; };
 		E2DF1641253698F600B035B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1640253698F600B035B1 /* SceneDelegate.swift */; };
-		E2DF1643253698F600B035B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1642253698F600B035B1 /* ContentView.swift */; };
+		E2DF1643253698F600B035B1 /* BeepTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1642253698F600B035B1 /* BeepTimerView.swift */; };
 		E2DF1645253698F700B035B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DF1644253698F700B035B1 /* Assets.xcassets */; };
 		E2DF1648253698F700B035B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DF1647253698F700B035B1 /* Preview Assets.xcassets */; };
 		E2DF164B253698F700B035B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DF1649253698F700B035B1 /* LaunchScreen.storyboard */; };
 		E2DF1656253698F700B035B1 /* BeepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1655253698F700B035B1 /* BeepTests.swift */; };
 		E2DF1661253698F700B035B1 /* BeepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1660253698F700B035B1 /* BeepUITests.swift */; };
+		E2DF1672253699A400B035B1 /* BeepTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF1671253699A400B035B1 /* BeepTimer.swift */; };
+		E2DF167A25369ADA00B035B1 /* Beep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF167925369ADA00B035B1 /* Beep.swift */; };
+		E2DF16822536A12E00B035B1 /* BeepTimerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF16812536A12E00B035B1 /* BeepTimerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		E2DF163B253698F600B035B1 /* Beep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DF163E253698F600B035B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2DF1640253698F600B035B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2DF1642253698F600B035B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2DF1642253698F600B035B1 /* BeepTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepTimerView.swift; sourceTree = "<group>"; };
 		E2DF1644253698F700B035B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DF1647253698F700B035B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2DF164A253698F700B035B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		E2DF165C253698F700B035B1 /* BeepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DF1660253698F700B035B1 /* BeepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepUITests.swift; sourceTree = "<group>"; };
 		E2DF1662253698F700B035B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DF1671253699A400B035B1 /* BeepTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepTimer.swift; sourceTree = "<group>"; };
+		E2DF167925369ADA00B035B1 /* Beep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beep.swift; sourceTree = "<group>"; };
+		E2DF16812536A12E00B035B1 /* BeepTimerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepTimerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				E2DF163E253698F600B035B1 /* AppDelegate.swift */,
-				E2DF1640253698F600B035B1 /* SceneDelegate.swift */,
-				E2DF1642253698F600B035B1 /* ContentView.swift */,
 				E2DF1644253698F700B035B1 /* Assets.xcassets */,
-				E2DF1649253698F700B035B1 /* LaunchScreen.storyboard */,
+				E2DF167925369ADA00B035B1 /* Beep.swift */,
+				E2DF1671253699A400B035B1 /* BeepTimer.swift */,
+				E2DF16812536A12E00B035B1 /* BeepTimerRow.swift */,
+				E2DF1642253698F600B035B1 /* BeepTimerView.swift */,
 				E2DF164C253698F700B035B1 /* Info.plist */,
+				E2DF1649253698F700B035B1 /* LaunchScreen.storyboard */,
 				E2DF1646253698F700B035B1 /* Preview Content */,
+				E2DF1640253698F600B035B1 /* SceneDelegate.swift */,
 			);
 			path = Beep;
 			sourceTree = "<group>";
@@ -268,7 +277,10 @@
 			files = (
 				E2DF163F253698F600B035B1 /* AppDelegate.swift in Sources */,
 				E2DF1641253698F600B035B1 /* SceneDelegate.swift in Sources */,
-				E2DF1643253698F600B035B1 /* ContentView.swift in Sources */,
+				E2DF16822536A12E00B035B1 /* BeepTimerRow.swift in Sources */,
+				E2DF167A25369ADA00B035B1 /* Beep.swift in Sources */,
+				E2DF1672253699A400B035B1 /* BeepTimer.swift in Sources */,
+				E2DF1643253698F600B035B1 /* BeepTimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
